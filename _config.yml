@@ -1,0 +1,8 @@
+# Site settings
+title: Colorado Jazz Workshop
+author:
+  name: Ishmael King
+description: "Colorado Jazz Workshop"
+
+# Build settings
+remote_theme: jekyll/minima

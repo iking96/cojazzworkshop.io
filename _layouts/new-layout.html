@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <style>
+      /* Header styles */
+      .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 20px;
+      }
+
+      .banner img {
+        max-width: 100px;
+        margin-right: 20px;
+      }
+
+      .banner h1 {
+        font-size: 24px;
+        color: white;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="banner">
+      <img src="assets/images/cjwlogo_2x_wht2.png">
+      <h1>Big Time Music for Part Time Musicians</h1>
+    </div>
+
+    {{ content }}
+  </body>
+</html>
